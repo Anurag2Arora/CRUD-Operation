@@ -1,0 +1,14 @@
+.list {
+  display: flex;
+  width: 90%;
+  padding: 30px;
+  flex-wrap: wrap;
+  /* background-color: red; */
+  margin: 50px 40px;
+}
+@media screen and (max-width: 480px) {
+  .list {
+    /* background-color: red; */
+    width: 50%;
+  }
+}
